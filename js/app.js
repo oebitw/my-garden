@@ -117,29 +117,6 @@ function localStorageRender(){
 
 }
 
-// Flower.prototype.renderHeader= function(){
-//   const parentElement = document.getElementById( 'table' );
-
-//   const thRow= document.createElement( 'tr' );
-//   parentElement.appendChild( thRow );
-
-//   const thData = document.createElement( 'th' );
-//   thRow.appendChild( thData );
-//   thData.text='#';
-
-//   const thDataImg = document.createElement( 'th' );
-//   thRow.appendChild( thDataImg );
-//   thDataImg.text='Image';
-
-//   const thDataName= document.createElement( 'th' );
-//   thRow.appendChild( thDataName );
-//   thDataName.text='Name ';
-
-//   const thDataSeason= document.createElement( 'th' );
-//   thRow.appendChild( thDataSeason );
-//   thDataSeason.text='Season';
-
-// };
 
 
 //////////////////////////////
@@ -170,6 +147,10 @@ function handleSubmit( event ){
 
   localStorage.setItem( 'flower', JSON.stringify( all ) );
 }
+
+//////////////////////////////
+/////// Clear Function     //
+////////////////////////////
 
 
 

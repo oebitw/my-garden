@@ -72,6 +72,7 @@ table th{
 table {
     width: 100%;
     border-collapse: collapse;
+
 }
 
 
@@ -80,6 +81,7 @@ form{
     border-radius: 5px;
     padding: 20px;
     width: 50%;
+    margin-bottom: 200px;
 }
 
 label {
@@ -130,8 +132,6 @@ footer{
     font-weight: bold;
     align-items: center;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 
 
